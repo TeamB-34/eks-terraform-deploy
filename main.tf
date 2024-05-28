@@ -39,7 +39,7 @@ module "aws_alb_controller" {
 # Managed Grafana Module
 ################################################################################
 
-module "managed_grafana" {
+/*module "managed_grafana" {
   source   = "./modules/grafana"
   env_name = var.env_name
   main-region  = var.main-region
@@ -53,7 +53,7 @@ module "managed_grafana" {
 # Managed Prometheus Module
 ################################################################################
 
-module "prometheus" {
+ module "prometheus" {
   source   = "./modules/prometheus"
   env_name = var.env_name
   main-region  = var.main-region
@@ -77,3 +77,4 @@ module "vpcendpoints" {
   private_subnets           = module.vpc.private_subnets
   grafana_security_group_id = module.managed_grafana.security_group_id
 }
+*/
