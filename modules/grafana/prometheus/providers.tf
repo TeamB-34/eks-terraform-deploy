@@ -1,5 +1,5 @@
 provider "aws" {
   profile = var.profile
   region  = var.main-region
-  alias   = "eu-east-1"
+  alias   = "eu-west-1"
 }
