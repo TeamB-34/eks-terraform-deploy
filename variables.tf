@@ -72,8 +72,8 @@ variable "env_name" {
 # AWS SSO Variables
 ################################################################################
 
-variable "sso_admin_group_id" {
-  description = "AWS_SSO Admin Group ID"
-  type        = string
-  sensitive   = true
-}
+#  variable "sso_admin_group_id" {
+#  description = "AWS_SSO Admin Group ID"
+#  type        = string
+#  sensitive   = true
+# }
