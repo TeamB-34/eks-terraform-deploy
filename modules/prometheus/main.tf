@@ -9,7 +9,7 @@ module "prometheus" {
   create_workspace = true
 
   providers = {
-    aws = aws.us-east-2
+    aws = aws.eu-west-1
   }
 
   alert_manager_definition = <<-EOT
